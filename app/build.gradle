@@ -27,7 +27,7 @@ model {
             main {
                 java {
                     source {
-                        srcDir "src/main/src"
+                        srcDir "src/main/java"
                     }
                 }
             }
@@ -38,7 +38,7 @@ model {
         main {
             jni {
                 source {
-                    srcDir "src"
+                    srcDir "src/jni"
                 }
             }
         }
